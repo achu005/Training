@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<title>arrays</title>
+	<script>
+				var x=[];
+				document.getElementById("demo").innerHTML = x;
+				
+				function find() {
+					
+					x.push(parseInt(n1.value),parseInt(n2.value),parseInt(n3.value),parseInt(n4.value),parseInt(n5.value),parseInt(n6.value),parseInt(n7.value),parseInt(n8.value));
+					document.getElementById("demo").innerHTML = x;
+					
+					
+				}
+				
+				function find1()
+				{
+					
+				}
+				
+	</script>
+	<body>
+		<h2>Finding Largest</h2>
+			<table>
+				<tr><td><input type="text" id="n1"><br>
+				<input type="text" id="n2"><br>
+				<input type="text" id="n3"><br>
+				<input type="text" id="n4"><br>
+				<input type="text" id="n5"><br>
+				<input type="text" id="n6"><br>
+				<input type="text" id="n7"><br>
+				<input type="text" id="n8"></td>
+				</tr></table>
+			<p id="demo"><input type="button" id="num" value="List" onclick="find()"></p>
+			<input type="button" id="large" value="Large" onclick="findl()">
+	</body>
+</html>
+
